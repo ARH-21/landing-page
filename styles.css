@@ -133,4 +133,29 @@ img
 
 /* Part 3 */
 
+.Part3
+{
+    display: flex;
+    justify-content: center;
+}
+
+.QuoteBox
+{
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 50px;
+}
+
+.Quote
+{
+    font-size: 18px;
+
+}
+
+.QuoteAuthor
+{
+    color: #1F2937;
+    
+}
+
 /* Part 4 */
