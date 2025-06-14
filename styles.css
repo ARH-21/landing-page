@@ -9,10 +9,24 @@ body
     font-family: "Roboto Slab", serif;
 }
 
-.Header
+/* Part 1A */
+/* top only covers 1A and 1B colors */
+.Top
 {
     background-color: #1f2937;
     color: white;
+}
+
+/* header contains Logo and 3 links */
+.Header
+{
+    display: flex;
+    /* get logo away from links (space apart) */
+    justify-content: space-between;
+    /* logo and links stuck at corners, get space to push from corner */
+    margin-left: 100px;
+    margin-right: 100px;
+
 }
 
 ul {
@@ -22,12 +36,25 @@ ul {
     gap: 20px
 }
 
+/* Part 1B */
+
+.Main
+/* Main has MainLeft and MainRight (text left, image to right) */
+{
+    display: flex;
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* This website is awesome */
 .siteTitle {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
+/* This website has some subtext ... */
 .siteSubtitle {
     font-size: 18px;
     color: #E5E7EB;
@@ -35,7 +62,7 @@ ul {
 
 button
 {
-    background-color: rgb(61, 121, 226);
+    background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 25px;
     padding: 5px 20px;
@@ -43,6 +70,12 @@ button
 
 img
 {
-    height: auto;
-    width: 300px;
+    max-height: 200px;
 }
+
+/* Part 2 */
+
+
+/* Part 3 */
+
+/* Part 4 */
