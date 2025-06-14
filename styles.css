@@ -1,0 +1,25 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.Header
+{
+    background-color: #1f2937;
+    color: white;
+    font-family: Roboto;
+}
+
+ul {
+    display: flex;
+    /* you need list style none, somehow unordered sitll has bullets */
+    list-style: none; 
+    gap: 20px
+}
+
+img
+{
+    height: auto;
+    width: 300px;
+}
