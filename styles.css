@@ -109,9 +109,17 @@ img
 
 .boxLayout
 {
+    /* display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    max-width: 100%;
+    margin: 30px;
+    gap: 20px */
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px;
 }
 
 .blueBox
