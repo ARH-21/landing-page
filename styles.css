@@ -4,11 +4,15 @@
     margin: 0;
 }
 
+body
+{
+    font-family: "Roboto Slab", serif;
+}
+
 .Header
 {
     background-color: #1f2937;
     color: white;
-    font-family: Roboto;
 }
 
 ul {
@@ -16,6 +20,25 @@ ul {
     /* you need list style none, somehow unordered sitll has bullets */
     list-style: none; 
     gap: 20px
+}
+
+.siteTitle {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.siteSubtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button
+{
+    background-color: rgb(61, 121, 226);
+    color: #F9FAF8;
+    border-radius: 25px;
+    padding: 5px 20px;
 }
 
 img
