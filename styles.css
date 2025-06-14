@@ -42,9 +42,24 @@ ul {
 /* Main has MainLeft and MainRight (text left, image to right) */
 {
     display: flex;
-    padding: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.LeftMain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.RightMain
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 /* This website is awesome */
@@ -71,6 +86,8 @@ button
 img
 {
     max-height: 200px;
+    width: auto;
+    margin-left: 40px;
 }
 
 /* Part 2 */
