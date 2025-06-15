@@ -137,24 +137,33 @@ img
 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .QuoteBox
 {
     background-color: #E5E7EB;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 50px;
 }
 
 .Quote
 {
-    font-size: 18px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
 
 }
 
 .QuoteAuthor
 {
-    color: #1F2937;
+    font-size: 26px;
+    font-style: bold;
+    /* text-align: right; */
+    text-align: end;
     
 }
 
