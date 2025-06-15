@@ -186,4 +186,46 @@ img
     width: 75%;
     height: 40%;
     border-radius: 4px;
+    justify-content: space-between;
+    /* get space between button and text */
+}
+
+.BRLeft
+{
+    color: white;
+    margin: 20px;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 150px;
+    /* margin left will push it to the right */
+}
+
+h4
+{
+    font-size: 20px;
+}
+
+.signUp
+{
+    font-size: 14px;
+}
+
+.BRRight
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 80px; 
+    /* margin right. The button is stuck at middle corner, lets push it back (left) */
+}
+
+.SignUpButton
+{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px 20px;
+    /* background-color: #3882F6;  */
 }
